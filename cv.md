@@ -64,3 +64,20 @@ function recycle(array) {
     })
 }
 ```
+
+### **Programming education**
+
+---
+
+- self-studying with [learn.javascript](https://learn.javascript.ru/)
+- video courses "Сomputer networks", "SQL databases"
+- intensive HTML, CSS, JavaScript trainings with [glo-academy](https://glo-academy.org/)
+- a bit of activity on [codewars](https://www.codewars.com/users/pa4ka1992)
+
+### **Languages**
+
+---
+
+- Russian (native)
+- English (A1)
+- Polish, Ukrainian (speech understanding)
