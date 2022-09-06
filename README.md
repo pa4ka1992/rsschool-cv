@@ -1,1 +1,1 @@
-https://pa4ka1992.github.io/rsschool-cv
+https://pa4ka1992.github.io/rsschool-cv/
