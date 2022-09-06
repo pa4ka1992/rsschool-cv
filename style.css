@@ -1,0 +1,202 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+}
+a {
+  color: inherit;
+  font-weight: 700;
+  transition: color 0.2s;
+}
+a:hover {
+  color: #3bb1ff;
+  transition: color 0.2s;
+}
+ul {
+  list-style-type: none;
+}
+body {
+  background-color: rgb(214, 214, 214);
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 2rem;
+}
+.container {
+  display: flex;
+  max-width: 1200px;
+  margin: 40px auto;
+  background-color: rgb(255, 255, 255);
+  box-shadow: -40px 41px 32px 0px rgba(34, 60, 80, 0.45);
+}
+.main-title {
+  background: linear-gradient(90deg, #3bb1ff 0%, #3be7ff 50%, #3bb1ff 100%);
+  border-radius: 120px;
+  box-shadow: 5px 5px 10px rgb(100, 100, 100);
+  display: flex;
+  position: absolute;
+  min-width: 1170px;
+  top: 55px;
+  left: 50%;
+  transform: translate(-50%);
+}
+.main-title__personal-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 15px;
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #fff;
+  text-shadow: 2px 2px 7px rgb(102, 102, 102);
+}
+.main-title__photo {
+  display: block;
+  padding: 7px;
+  max-width: 340px;
+  max-height: 340px;
+  border-radius: 100px;
+}
+.main-title__profession {
+  font-weight: 500;
+  font-size: 20px;
+}
+.header__left-bar {
+  font-size: 16px;
+  font-weight: 700;
+  font-style: italic;
+  color: #000;
+  text-transform: uppercase;
+}
+.left-bar {
+  margin: 15px 0 30px 15px;
+  padding-top: 190px;
+  min-width: 400px;
+  background-color: rgb(197, 197, 197);
+  color: #000;
+  overflow: hidden;
+  box-shadow: inset 0px 0px 20px rgba(5, 5, 5, 0.637);
+  border-top-left-radius: 100px;
+}
+.title__left {
+  text-align: right;
+  margin-right: 20px;
+  padding-right: 15px;
+  background-color: #fff;
+  border-radius: 0% 20px 20px 0%;
+  box-shadow: 5px 5px 5px rgba(5, 5, 5, 0.637);
+}
+.title__right {
+  margin-left: 20px;
+  padding-left: 15px;
+  background-color: #fff;
+  border-radius: 20px 0% 0% 20px;
+  box-shadow: 5px 5px 5px rgba(5, 5, 5, 0.637);
+}
+.bar-content {
+  padding: 20px 30px;
+}
+.skill__scale {
+  margin: 8px 20px;
+  max-width: 340px;
+  min-height: 15px;
+  border-radius: 100px;
+  box-shadow: 3px 3px 5px rgba(5, 5, 5, 0.637);
+}
+.html {
+  background: linear-gradient(90deg, #3bb1ff 80%, rgba(131, 131, 131, 1) 0%);
+}
+.css3 {
+  background: linear-gradient(90deg, #3bb1ff 80%, rgba(131, 131, 131, 1) 0%);
+}
+.js {
+  background: linear-gradient(90deg, #3bb1ff 50%, rgba(131, 131, 131, 1) 0%);
+}
+.gh {
+  background: linear-gradient(90deg, #3bb1ff 30%, rgba(131, 131, 131, 1) 0%);
+}
+.figma {
+  background: linear-gradient(90deg, #3bb1ff 50%, rgba(131, 131, 131, 1) 0%);
+}
+.db {
+  background: linear-gradient(90deg, #3bb1ff 20%, rgba(131, 131, 131, 1) 0%);
+}
+.lang-list {
+  font-weight: 500;
+  padding-left: 30px;
+}
+.lang::before {
+  content: "⦿";
+  color: #3bb1ff;
+  margin-right: 10px;
+  text-shadow: 1px 1px 2px #000;
+}
+.contacts a {
+  text-decoration: none;
+}
+.contacts__list li {
+  display: flex;
+  align-items: center;
+  padding: 3px 0;
+}
+.icons {
+  margin-right: 10px;
+  height: 20px;
+  width: 20px;
+}
+.right-bar {
+  padding: 205px 30px 30px 30px;
+}
+
+.header__right-bar {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.block {
+  padding: 15px 30px 15px 20px;
+  background-color: rgb(238, 248, 255);
+  box-shadow: 5px 5px 15px rgba(5, 5, 5, 0.637);
+}
+.about-me__text {
+  padding-left: 20px;
+  border-left: 7px solid #3be7ff;
+  text-align: justify;
+}
+.programming-education {
+  margin: 30px 0;
+}
+.pEducation__list {
+  padding-left: 0px;
+  border-left: 7px solid #3be7ff;
+}
+.education-route {
+  display: flex;
+}
+.education-route::before {
+  content: "◆";
+  color: #3be7ff;
+  display: inline;
+  position: relative;
+  left: -12px;
+  margin-right: 10px;
+  text-shadow: 0px 1px 4px #000;
+}
+.code-example {
+  line-height: 1.5rem;
+}
+.code-example__header {
+  line-height: 2rem;
+}
+
+.cata-solution {
+  padding-bottom: 10px;
+  font-weight: 700;
+}
+.solulion-code {
+  font-style: italic;
+  padding-left: 20px;
+  border-left: 7px solid #3be7ff;
+}
