@@ -18,32 +18,28 @@ ul {
 }
 body {
   background-color: rgb(214, 214, 214);
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 18px;
   font-weight: 500;
   line-height: 2rem;
 }
 .container {
-  background-color: rgb(255, 255, 255);
-  box-shadow: -40px 41px 32px 0px rgba(34, 60, 80, 0.45);
   display: flex;
   max-width: 1200px;
   margin: 40px auto;
-
+  background-color: rgb(255, 255, 255);
+  box-shadow: -40px 41px 32px 0px rgba(34, 60, 80, 0.45);
 }
 .main-title {
+  background: linear-gradient(90deg, #3bb1ff 0%, #3be7ff 50%, #3bb1ff 100%);
+  border-radius: 120px;
+  box-shadow: 5px 5px 10px rgb(100, 100, 100);
   display: flex;
   position: absolute;
   min-width: 1170px;
-  margin: 15px 15px 0px 15px;
-  background: linear-gradient(
-    90deg,
-    #3bb1ff 0%,
-    #3be7ff 50%,
-    #3bb1ff 100%
-  );
-  border-radius: 120px;
-  box-shadow: 5px 5px 10px rgb(100, 100, 100);
+  top: 55px;
+  left: 50%;
+  transform: translate(-50%);
 }
 .main-title__personal-info {
   display: flex;
@@ -110,54 +106,30 @@ body {
   border-radius: 100px;
   box-shadow: 3px 3px 5px rgba(5, 5, 5, 0.637);
 }
-.html { 
-  background: linear-gradient(
-    90deg,
-    #3bb1ff 80%,
-    rgba(131, 131, 131, 1) 0%
-  );  
+.html {
+  background: linear-gradient(90deg, #3bb1ff 80%, rgba(131, 131, 131, 1) 0%);
 }
 .css3 {
-  background: linear-gradient(
-    90deg,
-    #3bb1ff 80%,
-    rgba(131, 131, 131, 1) 0%
-  );  
+  background: linear-gradient(90deg, #3bb1ff 80%, rgba(131, 131, 131, 1) 0%);
 }
 .js {
-  background: linear-gradient(
-    90deg,
-    #3bb1ff 50%,
-    rgba(131, 131, 131, 1) 0%
-  );  
+  background: linear-gradient(90deg, #3bb1ff 50%, rgba(131, 131, 131, 1) 0%);
 }
 .gh {
-  background: linear-gradient(
-    90deg,
-    #3bb1ff 30%,
-    rgba(131, 131, 131, 1) 0%
-  );  
+  background: linear-gradient(90deg, #3bb1ff 30%, rgba(131, 131, 131, 1) 0%);
 }
 .figma {
-  background: linear-gradient(
-    90deg,
-    #3bb1ff 50%,
-    rgba(131, 131, 131, 1) 0%
-  );  
+  background: linear-gradient(90deg, #3bb1ff 50%, rgba(131, 131, 131, 1) 0%);
 }
 .db {
-  background: linear-gradient(
-    90deg,
-    #3bb1ff 20%,
-    rgba(131, 131, 131, 1) 0%
-  );  
+  background: linear-gradient(90deg, #3bb1ff 20%, rgba(131, 131, 131, 1) 0%);
 }
 .lang-list {
   font-weight: 500;
   padding-left: 30px;
 }
 .lang::before {
-  content: "⦿"; 
+  content: "⦿";
   color: #3bb1ff;
   margin-right: 10px;
   text-shadow: 1px 1px 2px #000;
@@ -183,11 +155,11 @@ body {
   font-size: 20px;
   text-transform: uppercase;
 }
-.block  {
+.block {
   padding: 15px 30px 15px 20px;
   background-color: rgb(238, 248, 255);
   box-shadow: 5px 5px 15px rgba(5, 5, 5, 0.637);
-} 
+}
 .about-me__text {
   padding-left: 20px;
   border-left: 7px solid #3be7ff;
@@ -204,7 +176,7 @@ body {
   display: flex;
 }
 .education-route::before {
-  content: "◆"; 
+  content: "◆";
   color: #3be7ff;
   display: inline;
   position: relative;
@@ -213,17 +185,17 @@ body {
   text-shadow: 0px 1px 4px #000;
 }
 .code-example {
-  line-height: 1.5rem;  
+  line-height: 1.5rem;
 }
 .code-example__header {
-  line-height: 2rem; 
+  line-height: 2rem;
 }
 
 .cata-solution {
   padding-bottom: 10px;
   font-weight: 700;
 }
-.solulion-code {  
+.solulion-code {
   font-style: italic;
   padding-left: 20px;
   border-left: 7px solid #3be7ff;

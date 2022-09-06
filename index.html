@@ -12,20 +12,21 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
+    <script src="https://kit.fontawesome.com/8d73e6a7ee.js" crossorigin="anonymous"></script>
   </head>
   <body>
-    <div class="container">
-      <header class="main-title">
-        <img src="./avatar.png" alt="photo" class="main-title__photo" />
-        <div class="main-title__personal-info">
-          <p class="main-title__name">
-            Nikita <br />
-            Kisly
-          </p>
-          <p class="main-title__profession">Civil engineer</p>
-        </div>
-      </header>
-      <div class="left-bar">
+    <header class="main-title">
+      <img src="./avatar.png" alt="photo" class="main-title__photo" />
+      <div class="main-title__personal-info">
+        <p class="main-title__name">
+          Nikita <br />
+          Kisly
+        </p>
+        <p class="main-title__profession">Civil engineer</p>
+      </div>
+    </header>
+    <main class="container">
+      <section class="left-bar">
         <div class="mEducation">
           <h3 class="mEducation__header header__left-bar title__left">
             Major education
@@ -84,7 +85,7 @@
           </h3>
           <ul class="contacts__list bar-content">
             <li class="list__location">
-              <img class="icons" src="./location.png" alt="" />
+                <i class="fa-solid fa-location-dot icons"></i>
               <a
                 href="https://goo.gl/maps/FQrB1prz6hmbGC697"
                 class="location-link"
@@ -92,19 +93,17 @@
               >
             </li>
             <li class="list__phone">
-              <img class="icons" src="./phone-call.png" alt="" />
-              <a href="tel:+375333123560" class="phones">
-                +375 33 312 35 **
-              </a>
+                <i class="fa-solid fa-phone icons"></i>
+              <a href="tel:+375333123560" class="phones"> +375 33 312 35 ** </a>
             </li>
             <li class="list__email">
-              <img class="icons" src="./email.png" alt="" />
+                <i class="fa-solid fa-envelope-open icons"></i>
               <a href="mailto:sour945@gmail.com" class="email">
                 sour945@gmail.com
               </a>
             </li>
             <li class="list__github">
-              <img class="icons" src="./github.png" alt="" />
+                <i class="fa-brands fa-github icons"></i>
               <a href="https://github.com/pa4ka1992" class="github-link"
                 >pa4ka1992</a
               >
@@ -119,17 +118,18 @@
             </li>
           </ul>
         </div>
-      </div>
-      <div class="right-bar">
+      </section>
+      <section class="right-bar">
         <div class="about-me block">
           <h3 class="about-me__header header__right-bar">About me</h3>
           <p class="about-me__text">
             I'm 30, and i have been working as a civil engineer in the
-            Belarusian company, like for 6 years. Since 2017 i've started to learn a basic programming skills
-            and conceptions, because i was always enjoyed in creating something
-            brand-new and researching an Internet related technologies. A little
-            bit later, i've realized that JavaScript is the number one language
-            to work with in Internet, so i picked it like the main to study.
+            Belarusian company, like for 6 years. Since 2017 i've started to
+            learn a basic programming skills and conceptions, because i was
+            always enjoyed in creating something brand-new and researching an
+            Internet related technologies. A little bit later, i've realized
+            that JavaScript is the number one language to work with in Internet,
+            so i picked it like the main to study.
           </p>
         </div>
         <div class="programming-education block">
@@ -202,7 +202,7 @@
 }</code>
           </pre>
         </div>
-      </div>
-    </div>
+      </section>
+    </main>
   </body>
 </html>
