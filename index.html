@@ -180,17 +180,17 @@
     {recType: "organic",recycle: []},
     {recType: "plastic",recycle: []}
   ]
-  array.forEach(({ type, material, secondMaterial }) =&gt {
-    recycles.map(({ recType, recycle }) =&gt {
+  array.forEach(({ type, material, secondMaterial }) =&gt; {
+    recycles.map(({ recType, recycle }) =&gt; {
       if (recType == material) {
         recycle.push(type)
       }
-      if (secondMaterial &amp&amp secondMaterial == recType) {
+      if (secondMaterial &amp;&amp; secondMaterial == recType) {
         recycle.push(type)
       }
     })
   })
-  return recycles.map((extract) =&gt {
+  return recycles.map((extract) =&gt; {
     return extract.recycle
   })
 }</code>
